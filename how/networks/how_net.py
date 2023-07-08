@@ -11,7 +11,7 @@ from .. import layers
 from ..layers import functional as HF
 from ..utils import io_helpers
 
-NUM_WORKERS = 6
+NUM_WORKERS = 1
 
 CORERCF_SIZE = {
     'resnet18': 32,
