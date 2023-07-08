@@ -27,8 +27,8 @@ class EpochFigure:
 
     def save(self, path):
         """Save figure to given path"""
-        self.axes.grid(b=True, which='major', color='k', linestyle='-')
-        self.axes.grid(b=True, which='minor', color='r', linestyle='-', alpha=0.2)
+        self.axes.grid(visible=True, which='major', color='k', linestyle='-')
+        self.axes.grid(visible=True, which='minor', color='r', linestyle='-', alpha=0.2)
         self.axes.minorticks_on()
         self.axes.legend()
         self.axes.set_xlabel('epoch')
